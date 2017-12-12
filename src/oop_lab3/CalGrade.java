@@ -27,4 +27,3 @@ public class CalGrade {
 
     }//main
 }//class
-class
