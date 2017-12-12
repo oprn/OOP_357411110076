@@ -12,12 +12,13 @@ public class TestWhileLoop {
         // while
             int i = 1;
             while (i<= 50) {
-                System.out.print(i+ " ");
+                System.out.print(i + " ");
                 if (i % 50 == 0)
-                    System.out.print("Hello  ");
+                    System.out.print(" Hello  ");
                 i++;
 
-            }//Whil
+
+            } //While
       //     do-While
             System.out.print("\n");
             int j = 1;
