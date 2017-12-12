@@ -17,7 +17,7 @@ public class TestSwitchCase {
             case 1:System.out.println ("Your entered 1.");break;
             case 2:System.out.println("Your entered2.");break;
             case 3:System.out.println("YOur entered3.");break;
-            case 4:System.out.println("Please enter number 1-3.");
+            default: System.out.println("Please enter number 1-3.");
 
         }//switch
 
