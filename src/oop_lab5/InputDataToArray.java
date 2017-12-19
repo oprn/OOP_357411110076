@@ -19,7 +19,7 @@ public class InputDataToArray {
             int num[]= new int [MAX];
            num = inputData(num);
             ShowData(num);
-            summation();
+
 
 
         }//main
@@ -27,9 +27,12 @@ public class InputDataToArray {
 
     public static void summation (int [] num ){
        int total = 0;
-       for ()
+       for (int i = 0;i<num.length;i++){
+           total +=num[i];
 
-
+       }
+System.out.println("\nThe summation of" +"value in array is: "+total);
+System.out.println("The averag value "+ "in array is : "+total/MAX);
     }
 
 
